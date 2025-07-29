@@ -1,0 +1,6 @@
+Q3.c
+setup.py
+q3stats.egg-info/PKG-INFO
+q3stats.egg-info/SOURCES.txt
+q3stats.egg-info/dependency_links.txt
+q3stats.egg-info/top_level.txt
