@@ -59,8 +59,6 @@ This project answers 5 technical questions covering:
 nasm -f elf64 Q2.asm
 gcc -no-pie -o Q2 Q2.o
 ./Q2
-
-
 ---
 
 ## ✅ Question 3: Python C Extension (`adder`)
@@ -83,7 +81,10 @@ Build a simple C function that adds two integers, and use it inside Python as a 
 python3 setup.py build
 cd build/lib*  # enter generated build folder
 python3 ../../test_adder.py
-# 🧵 Question 4: Producer-Consumer Using Threads
+
+---
+
+## Question 4: Producer-Consumer Using Threads
 
 ### 🔹 Objective
 Implement a simple multithreaded system where:
@@ -100,18 +101,21 @@ Implement a simple multithreaded system where:
 ### 🔹 Compilation
 ```bash
 gcc producer_consumer.c -o pc -lpthread
-# 💬 Question 5: TCP Chat System in Linux
 
-## 🔹 Objective
+---
+
+## Question 5: TCP Chat System in Linux
+
+### 🔹 Objective
 Build a simple chat system where:
 - The **server** listens for a client.
 - The **client** connects and sends/receives messages.
 
-## 🔹 Files Included
+###🔹 Files Included
 - `server.c`: Code for the server.
 - `client.c`: Code for the client.
 
-## 🔹 Key System Calls
+###🔹 Key System Calls
 - `socket()` – creates the socket.
 - `bind()` – binds the socket to IP and port.
 - `listen()` – server listens for incoming connections.
@@ -119,7 +123,7 @@ Build a simple chat system where:
 - `connect()` – client connects to the server.
 - `send()` / `recv()` – exchange messages.
 
-## 🔹 How to Compile
+### 🔹 How to Compile
 Open terminal and run:
 ```bash
 gcc server.c -o server
