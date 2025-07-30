@@ -55,11 +55,10 @@ This project answers 5 technical questions covering:
 - Result is printed
 
 🔹 **To Compile and Run:**  
-```bash
+``bash
 nasm -f elf64 Q2.asm
 gcc -no-pie -o Q2 Q2.o
-./Q2
-
+./Q2 
 
 ---
 
@@ -79,7 +78,7 @@ Build a simple C function that adds two integers, and use it inside Python as a 
 - `Extension` and `PyModule_Create`: For creating Python modules in C.
 
 ### 🔹 Compilation Instructions
-```bash
+``bash
 python3 setup.py build
 cd build/lib*  # enter generated build folder
 python3 ../../test_adder.py
@@ -98,7 +97,7 @@ Implement a simple multithreaded system where:
 - Shared circular buffer logic for writing/reading data.
 
 ### 🔹 Compilation
-```bash
+``bash
 gcc producer_consumer.c -o pc -lpthread
 # 💬 Question 5: TCP Chat System in Linux
 
@@ -121,6 +120,6 @@ Build a simple chat system where:
 
 ## 🔹 How to Compile
 Open terminal and run:
-```bash
+``bash
 gcc server.c -o server
 gcc client.c -o client
